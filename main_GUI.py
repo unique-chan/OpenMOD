@@ -45,12 +45,12 @@ class DataGenGUI(QMainWindow):
         for mode in list_options['modes']: self.mode_combobox.addItem(mode)
         self.mode_combobox.setFixedSize(100, 25)
 
-        map_label = QLabel('Map in ARMA', self)
+        map_label = QLabel('Map in Arma 3', self)
         self.map_combobox = QComboBox(self)
         for map_ in list_options['map_names']: self.map_combobox.addItem(map_)
         self.map_combobox.setFixedSize(200, 25)
 
-        weather_label = QLabel('Weather in ARMA', self)
+        weather_label = QLabel('Weather in Arma 3', self)
         self.weather_combobox = QComboBox(self)
         for weather in list_options['weathers']: self.weather_combobox.addItem(weather)
         self.weather_combobox.setFixedSize(200, 25)
@@ -82,7 +82,7 @@ class DataGenGUI(QMainWindow):
         for hour in range(0, 23): self.start_hour_combobox.addItem(f'{hour}')
         self.start_hour_combobox.setFixedSize(80, 25)
 
-        end_hour_label = QLabel('End hour in ARMA', self)
+        end_hour_label = QLabel('End hour in Arma 3', self)
         self.end_hour_combobox = QComboBox(self)
         for hour in range(1, 24): self.end_hour_combobox.addItem(f'{hour}')
         self.end_hour_combobox.setFixedSize(80, 25)
@@ -213,7 +213,7 @@ class DataGenGUI(QMainWindow):
         self.z_atl_edit.setFixedSize(100, 25)
         self.z_atl_edit.setValidator(QIntValidator(self))
 
-        cam_fov_label = QLabel('Camera FOV in ARMA', self)
+        cam_fov_label = QLabel('Camera FOV in Arma 3', self)
         self.cam_fov_edit = QLineEdit('0.8', self)
         self.cam_fov_edit.setFixedSize(100, 25)
         self.cam_fov_edit.setValidator(QDoubleValidator(self))
@@ -231,7 +231,7 @@ class DataGenGUI(QMainWindow):
         self.layout.addLayout(line_layout)
 
         # ====================< layer 9 >====================
-        sampling_label = QLabel('Sampling (scaling) in ARMA', self)
+        sampling_label = QLabel('Sampling (scaling) in Arma 3', self)
         self.sampling_combobox = QComboBox(self)
         for sampling_ in list_options['samplings']: self.sampling_combobox.addItem(sampling_)
         self.sampling_combobox.setFixedSize(100, 25)
@@ -364,7 +364,7 @@ class DataGenGUI(QMainWindow):
                                            (int(self.sampling_combobox.currentText()[:-1])/100), 2)
                 self.notice_window.setText(f'{self.notice_window.toPlainText()}'
                                            f' ↳ Now the spatial resolution is {spatial_resolution} m/pix '
-                                           f'due to your request to virtually rescale the ARMA resolution '
+                                           f'due to your request to virtually rescale the Arma 3 resolution '
                                            f'by {self.sampling_combobox.currentText()} \n')
         else:
             raise NotImplementedError("Unsupported platform, Only Windows supported")
