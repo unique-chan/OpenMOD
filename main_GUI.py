@@ -26,7 +26,7 @@ class DataGenGUI(QMainWindow):
         # ====================< Layer 0 >====================
         try:
             pixmap = QPixmap('figs/Logo.png')
-            target_height = 130
+            target_height = 60
             target_width = int(pixmap.width() * (target_height / pixmap.height()))
             pixmap = pixmap.scaled(target_width, target_height)
             line_layout = QHBoxLayout()
@@ -310,7 +310,7 @@ class DataGenGUI(QMainWindow):
         # ====================< Create GUI >====================
         self.central_widget.setLayout(self.layout)
         self.setGeometry(100, 100, 700, 500)
-        self.setWindowTitle('AMOD-DataGen')
+        self.setWindowTitle('G-MAD')
         self.show()
 
     def enable_data_button(self):
