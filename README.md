@@ -29,7 +29,13 @@
 
 
 ### Quick start
-- We assume that you have already finished setting up ARMA3 by our [tutorial]() in advance.
+- We assume that you have already finished setting up Arma 3 by our [tutorial]() in advance.
+- Please install necessary python libraries in `requirements.txt`
+  ~~~shell
+  conda create -n g-mad python=3.8 -y
+  conda activate g-mad
+  pip install -r .\requirements.txt
+  ~~~
 - For example, run the below command to generate **10** scenes of **sunny** day which covers all camera tilt cases between **-60** and **60** degrees, from **9AM** to **6PM**, on the map named **malden** for **training**:
 ```bashshell
 python main.py  -weather 'sunny' -map_name 'malden' \
@@ -42,7 +48,7 @@ python main.py  -weather 'sunny' -map_name 'malden' \
                 -look_angle_min -60 -look_angle_max 60
 ```
 - To create only on-nadir view scenes, set both `look_angle_min` and `look_angle_max` to 0.
-- Try to use our GUI tool: `python main_GUI.py` instead for convenience!
+- ⭐ Try to use our GUI tool: `python main_GUI.py` instead for convenience!
 
 
 ### Dataset structure
