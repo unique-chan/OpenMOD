@@ -17,9 +17,9 @@
 
 * You must place the basic `parameter.txt` file in `C:/Users/{username}/Documents/Arma 3`.
 
-Move the `missions` folder included in the code to `C:/Users/{username}/Documents/Arma 3/missions`.
+* Move the `missions` folder included in the code to `C:/Users/{username}/Documents/Arma 3/missions`.
 
-Please note that while the code is running, you must not open or modify any files that the code is using or generating.
+  - Please note that while the code is running, you must not open or modify any files that the code is using or generating.
 
 ---
 
