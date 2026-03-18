@@ -147,7 +147,7 @@ class DataGenGUI(QMainWindow):
         self.layout.addLayout(line_layout)
 
         # ====================< layer 5 >====================
-        arma_root_path_label = QLabel('Arma root path', self)
+        arma_root_path_label = QLabel('Arma 3 root path', self)
         self.arma_root_path_edit = QLineEdit(f'C:/Users/{os.getlogin()}/Documents/Arma 3', self)
 
         line_layout = QHBoxLayout()
