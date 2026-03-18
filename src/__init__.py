@@ -5,10 +5,10 @@ from .my_clean_bot.my_clean_bot import *
 
 list_options = {
     'weathers': ['sunny', 'rain', 'overcast', 'snow'],
-    'map_names': ['altis', 'livonia', 'malden2035', 'stratis', 'tanoa', 'weferlingen', 'weferlingen_winter', 'VR',
-                  'bukovina', 'bystrica', 'chernarus_autumn', 'chernarus_summer', 'chernarus_winter',
-                  'everon', 'kolgujev', 'malden', 'nogova', 'proving_grounds', 'sahrani', 'shapur',
-                  'southern_sahrani', 'takistan', 'takistan_mountains', 'united_sahrani'],
+    'map_names': ['altis', 'livonia', 'malden2035', 'stratis', 'tanoa', 'weferlingen', 'weferlingen_winter', 'VR',],
+                #   'bukovina', 'bystrica', 'chernarus_autumn', 'chernarus_summer', 'chernarus_winter',
+                #   'everon', 'kolgujev', 'malden', 'nogova', 'proving_grounds', 'sahrani', 'shapur',
+                #   'southern_sahrani', 'takistan', 'takistan_mountains', 'united_sahrani'],
     'camera_movings': ['air_to_air', 'air_to_land'],
     # DO NOT USE '_' in string for the list 'modes'  e.g. A3_TI (X) -> A3TI (O)
     'modes': ['EO',              # ARMA3 Default
