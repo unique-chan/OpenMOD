@@ -1,11 +1,11 @@
 <div align="center">
-    <img alt="OpenMOD: An Open-source Toolkit for Synthetic RGB-T Military Object Detection Data Generation" src="./figs/AMOD-DataGen-Logo.png" />
+    <img alt="G-MAD: An Open-source Toolkit for Synthetic RGB-T Military Object Detection Data Generation" src="./figs/Logo.png" />
 </div>
 
 <hr>
 
 <h3 align="center">
-🛠️ OpenMOD: An Open-source Toolkit for Synthetic RGB-T Military Object Detection Data Generation
+🛠️ An Open-source Toolkit for Synthetic RGB-T Military Object Detection Data Generation
 </h3>
 
 <p align="center">

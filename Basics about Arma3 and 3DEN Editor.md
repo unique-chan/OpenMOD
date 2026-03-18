@@ -3,7 +3,7 @@
 
 
 
-* This document explains the knowledge required to understand, use, and improve the `OpenAMOD` tool.
+* This document explains the knowledge required to understand, use, and improve the `G-MAD` tool.
 
 * Most of the content in this document is available on the official Arma 3 online community wiki, but since the documentation is extensive, only the necessary parts are included here.
 
@@ -13,7 +13,7 @@
 
 
 
-## 0. Preparation Required for Using `OpenAMOD`
+## 0. Preparation Required for Using `G-MAD`
 
 * You must place the basic `parameter.txt` file in `C:/Users/{username}/Documents/Arma 3`.
 
@@ -51,9 +51,9 @@ From this screen, you can create and debug the mission you want using `EDITOR`, 
 
 ---
 
-## 2. The Workflow of `OpenAMOD` and What Is Required
+## 2. The Workflow of `G-MAD` and What Is Required
 
-At a high level, `OpenAMOD` works as follows:
+At a high level, `G-MAD` works as follows:
 
 1. It receives the information the user wants (camera type, time of day, map, weather, image size, sampling rate, etc.).
 
@@ -154,7 +154,7 @@ To subscribe to a MOD, go to the Steam Library, enter the Community Hub, and the
     <img alt="Welcome" src="figs\md_img\steamCommunity.png" />
 </p>
 
-The mods and DLCs currently subscribed to and loaded by `OpenAMOD` are as follows.
+The mods and DLCs currently subscribed to and loaded by `G-MAD` are as follows.
 
 * DLC
     1. GM (Global Mobilization)
@@ -188,10 +188,10 @@ If you open each folder, you will see that the data is organized into `.pbo` fil
 ---
 ## 5. Startup Parameters
 
-This is an important part that allows `OpenAMOD` to run automatically.  
+This is an important part that allows `G-MAD` to run automatically.  
 Using Startup Parameters, you can launch the generated Scenario simply by executing a single command-line instruction.
 
-More details can be found at [Arma 3: Startup Parameters](https://community.bistudio.com/wiki/Arma_3:_Startup_Parameters), but in this document we will describe the parts needed for `OpenAMOD` and those that may be applicable later.
+More details can be found at [Arma 3: Startup Parameters](https://community.bistudio.com/wiki/Arma_3:_Startup_Parameters), but in this document we will describe the parts needed for `G-MAD` and those that may be applicable later.
 
 In general, strings should be written in the `"text"` form, paths should use backslashes as in `C:\User\"Arma 3"\`, and if a folder name contains spaces, it should be wrapped in `\"`.
 

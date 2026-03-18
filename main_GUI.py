@@ -25,7 +25,7 @@ class DataGenGUI(QMainWindow):
 
         # ====================< Layer 0 >====================
         try:
-            pixmap = QPixmap('figs/AMOD-DataGen-Logo.png')
+            pixmap = QPixmap('figs/Logo.png')
             target_height = 130
             target_width = int(pixmap.width() * (target_height / pixmap.height()))
             pixmap = pixmap.scaled(target_width, target_height)
@@ -372,6 +372,6 @@ class DataGenGUI(QMainWindow):
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    app.setWindowIcon(QIcon('figs/AMOD-DataGen-Icon.svg'))
+    app.setWindowIcon(QIcon('figs/Icon.svg'))
     viewer = DataGenGUI()
     sys.exit(app.exec_())
